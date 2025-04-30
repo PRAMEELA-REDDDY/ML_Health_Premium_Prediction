@@ -1,16 +1,16 @@
-**HEALTH CARE PREMIUM AMOUNT PREDICTION**
+# **HEALTH CARE PREMIUM AMOUNT PREDICTION**
 
 This project is a machine learning-based web application designed to predict healthcare insurance premium amounts. It uses a streamlined end-to-end workflow, including data preparation, model building, evaluation, and deployment with Streamlit.
 
-**FEATURES**
+## **FEATURES**
 
-->**Data Preparation**
+### ->**Data Preparation**
 
 Cleaned and transformed raw data for model training.
 
 Engineered relevant features for accurate premium predictions.
 
-->**Model Development**
+### ->**Model Development**
 
 Developed and trained machine learning models for different age groups:
 
@@ -20,11 +20,11 @@ model_rest: Predicts premiums for all other age groups.
 
 Applied scaling for numerical features for better model performance.
 
-->**Web Application**
+### ->**Web Application**
 
 Deployed a user-friendly interface using Streamlit for real-time predictions.
 
-**Why Two Models?**
+## **Why Two Models?**
 
 In our analysis, we observed a high error margin when trying to predict healthcare premium amounts for all age groups using a single model. To improve accuracy, we decided to segment the data into two groups:
 
@@ -38,7 +38,7 @@ Reduce the overall error margin by tailoring predictions to distinct age-based c
 
 Ensure better performance and accuracy for each group.
 
-**Project Workflow**
+## **Project Workflow**
 
 ->Data Processing
 
@@ -54,7 +54,7 @@ Exported models as artifacts for deployment.
 
 Built and deployed the Streamlit app for users to input data and receive predictions.
 
-**Project Structure**
+## **Project Structure**
 
 .venv/: Virtual environment containing all dependencies.
 
@@ -74,7 +74,7 @@ prediction_helper.py: Helper functions to load models and make predictions.
 
 requirements.txt: File listing all dependencies for the project.
 
-**Prerequisites**
+## **Prerequisites**
 
 Before running the project, ensure you have the following installed:
 
@@ -82,7 +82,7 @@ Python 3.x
 
 Required libraries: streamlit, pandas, numpy, scikit-learn, joblib, and others listed in requirements.txt.
 
-**Installing Dependencies**
+## **Installing Dependencies**
 
 Clone the repository:
 
@@ -98,7 +98,7 @@ Activate the virtual environment (if used):
 source .venv/bin/activate  # For Linux/Mac
 .venv\Scripts\activate     # For Windows
 
-**Running the Project**
+## **Running the Project**
 
 Start the Streamlit App:Navigate to the project folder and run:
 
@@ -106,7 +106,7 @@ streamlit run main.py
 
 Access the Application:Open the browser and visit the URL displayed (e.g., http://localhost:8501).
 
-**Future Enhancements**
+## **Future Enhancements**
 
 Improve the accuracy of the prediction models by experimenting with advanced algorithms.
 
