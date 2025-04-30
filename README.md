@@ -1,4 +1,4 @@
-**Healthcare Premium Prediction**
+**HEALTH CARE PREMIUM AMOUNT PREDICTION**
 
 This project is a machine learning-based web application designed to predict healthcare insurance premium amounts. It uses a streamlined end-to-end workflow, including data preparation, model building, evaluation, and deployment with Streamlit.
 
